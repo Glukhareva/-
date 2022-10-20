@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_csv(r"C:\Users\Лиза\Downloads\test_3.csv", header = None)
+data = pd.read_csv("test_3.csv", header = None)
 for i in range(len(data)):
     for x in data:
         if data[i] < x:
